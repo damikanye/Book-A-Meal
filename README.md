@@ -1,19 +1,19 @@
 # Book-A-Meal
 An application that allows customers to make food orders.
 
-#Trello Board
+# Trello Board
 Project is currently being built with the Project Management Tool, Pivotal Tracker. You can find the link https://trello.com/b/z6ye2AIn/alcwithforloop
 
-#Technologies Used
+# Technologies Used
 NodeJS
 ExpressJS
 PostgreSQL
 
-#Packages Used
+# Packages Used
 ESLint
 Babel
 
-#Getting Started
+# Getting Started
 Install NodeJS and PostgreSQL on your computer
 Install Postman
 Clone the repo https://github.com/damikanye/Book-A-Meal
@@ -25,15 +25,15 @@ Created my UI - Home Page
                 Checkout Page
 
 #Testing
-#Prerequisites
+# Prerequisites
 
 Postman - API Toolchain
 
-#Testing with Postman
+# Testing with Postman
 After installing 
 Navigate to localhost:9001 in Postman to access the application
 
-#Features
+# Features
 1. Users can create an account and log in
 2. Admin (Caterer) should be able to manage (i.e: add, modify and delete) meal options in
 the application. Examples of meal options are: Beef with rice, Beef with fries etc
