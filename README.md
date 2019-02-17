@@ -10,7 +10,8 @@ ExpressJS
 PostgreSQL
 
 # Packages Used
-ESLint
+ESLint,
+
 Babel
 
 # Getting Started
