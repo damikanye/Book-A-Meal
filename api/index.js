@@ -1,22 +1,23 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 
-// routes
-import mealRoutes from './routes/meal.route';
-
+import mealRoutes from './routes/meal.routes';
+import orderRoutes from './routes/order.routes';
+import menuRoutes from './routes/menu.route';
 
 const app = express();
+
+// Parse request body
+app.use(express.json());
 const PORT = 9001;
 
-app.use(bodyParser.json());
-
 app.get('/', (req, res) => {
-    return res.send('The API is working');
+  return res.send('Get to the chopper! NOW!!!');
 });
 
-// handle
 app.use('/api/v1/meals', mealRoutes);
+app.use('/api/v1/orders', orderRoutes);
+app.use('/api/v1/menu', menuRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on PORT ${PORT}`);
+  console.log(`Server is running on PORT ${PORT}`);
 });
